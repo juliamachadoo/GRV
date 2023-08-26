@@ -1,0 +1,19 @@
+.container-cafenobrasil p {
+  font-size: 20px;
+  color: #031224;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  margin-top:15px;
+  margin-right: 80px;
+  place-content: center;
+}
+
+.historiacafebrasil {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1356A3;
+  text-align: left;
+  margin-left: 40px;
+  padding:40px;
+
+}

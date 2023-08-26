@@ -1,0 +1,22 @@
+.logo-final {
+  height: 700px;
+  width: auto;
+  background-image: url("./img/img10.jpg");
+  background-position: right 35% bottom 45%;
+  background-repeat: no-repeat;
+  place-items: center;
+}
+
+.mapa-mundo {
+  place-items: center;
+}
+
+.logo {
+  position: absolute;
+  height: 700px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 1;
+  place-items: center;
+}

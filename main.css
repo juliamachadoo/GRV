@@ -1,0 +1,29 @@
+main {
+    background-image: url('./img/img06.jpg');
+    background-size: cover;
+    height: 675px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+
+  }
+
+main h1{
+    margin-top: 300px;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(13, 35, 2, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-size: 5rem;
+}
+
+main p{
+    margin-top: auto;
+    color: rgb(216, 221, 52);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    background-color: rgba(13, 35, 2, 0.4);
+}

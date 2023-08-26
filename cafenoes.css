@@ -1,0 +1,33 @@
+.cafe-no-es{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.container-cafenoes p {
+    font-size: 20px;
+    color: #031224;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-top:15px;
+    margin-right: 80px;
+  }
+  
+  .historiacafees {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1356A3;
+    text-align: left;
+    margin-left: 40px;
+    padding:40px;
+  
+  }
+
+  .img-section-03 {
+    height: 400px;
+    margin: 200px 0px 40px 20px;
+    border-radius: 4px;
+    padding-right: 0px;
+
+  }
