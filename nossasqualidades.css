@@ -1,6 +1,6 @@
 .nossas-qualidades-bg {
-  background-color: var(--cor-12);
-  box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .nossas-qualidades {
@@ -12,22 +12,23 @@
 .nossas-qualidades-titulo {
   font-size: 3rem;
   padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nossas-qualidades-titulo::before {
+  content: "";
+  width: 30px;
+  height: 4px;
+  background-color: #1356a3;
+  display: block;
+  border-radius: 2px;
 }
 
 .nossas-qualidades-conteudo {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.cafe-imagem img {
-  padding-top: 60px;
-  width: max-width;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  object-position: left;
-  margin: 0px;
-  border: 0px;
 }
 
 .nossas-qualidades > span {
@@ -45,11 +46,51 @@
 
 .qualidades {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 20px;
   padding-left: 40px;
-  position: absolute;
+  align-items: start;
+  margin-top: 20px;
 }
+
+.qualidade-cafe {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.qualidade-cafe::before {
+  background-color: #1356a3;
+  color: white;
+  padding: 0 10px;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.qualidade-01::before {
+  content: "1";
+}
+
+.qualidade-02::before {
+    content: "2";
+  }
+
+  .qualidade-03::before {
+    content: "3";
+  }
+
+  .qualidade-04::before {
+    content: "4";
+  }
+
+  .qualidade-05::before {
+    content: "5";
+  }
+
+  .qualidade-06::before {
+    content: "6";
+  }
+
 
 .qualidades h3 {
   margin-bottom: 8px;
