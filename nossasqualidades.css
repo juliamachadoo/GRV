@@ -1,0 +1,104 @@
+.nossas-qualidades-bg {
+  background-color: var(--cor-12);
+  box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
+}
+
+.nossas-qualidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 40px;
+}
+
+.nossas-qualidades-titulo {
+  font-size: 3rem;
+  padding-left: 40px;
+}
+
+.nossas-qualidades-conteudo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cafe-imagem img {
+  padding-top: 60px;
+  width: max-width;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  object-position: left;
+  margin: 0px;
+  border: 0px;
+}
+
+.nossas-qualidades > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.nossas-qualidades h2 {
+  margin-bottom: 32px;
+}
+
+.nossas-qualidades-conteudo > p {
+  padding-left: 40px;
+}
+
+.qualidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-left: 40px;
+  position: absolute;
+}
+
+.qualidades h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.detalhe {
+  content: "";
+  width: 20px;
+  height: 4px;
+  color: aqua;
+  position: relative;
+}
+
+.detalhe-qualidades {
+  content: "";
+  width: 20px;
+  height: 4px;
+  color: aqua;
+  position: relative;
+  margin-left: 40px;
+}
+
+@media (max-width: 800px) {
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .tecnologia-bg {
+    background-color: var(--cor-12);
+    box-shadow: initial;
+  }
+
+  .tecnologia-imagem {
+    display: none;
+  }
+
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}

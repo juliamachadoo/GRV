@@ -1,29 +1,44 @@
-main {
-    background-image: url('./img/img06.jpg');
+.main-bg {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url('./img/img06.jpg');
     background-size: cover;
     height: 675px;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-
   }
 
-main h1{
-    margin-top: 300px;
-    background-color: white;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(13, 35, 2, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-size: 5rem;
+.main-text{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+.main-text h1{
+    padding-top: 8rem;
+    font-size: 4rem;
 }
 
-main p{
-    margin-top: auto;
-    color: rgb(216, 221, 52);
+.main-text p{
     font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0.5rem 2rem;
-    background-color: rgba(13, 35, 2, 0.4);
+    padding: 1rem 20rem;
+}
+
+.button{
+    display:flex;
+    padding: .5rem 1rem;
+    background-color: #1356A3;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.phone-icon{
+    padding-left: 1rem;
+    width: 40px;
+    height: 40px;
 }

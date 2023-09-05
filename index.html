@@ -5,80 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRV COFFEE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&family=Roboto+Slab:wght@900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 
 <body>
-    <header>
-        <img class="logo" src="./img/logoBR.png" alt="logo GRV">
-        <nav aria-label="primária">
-            <ul class="header-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#quemsomos">Nossa História</a></li>
-                <li><a href="#nossosservicos">Nossos serviços</a></li>
-                <li><a href="#historiacafebrasil">História do Café no BR</a></li>
-                <li><a href="#historiacafees">História do Café no ES</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header-bg">
+        <div class="header-content">
+            <img class="logo-header" src="./img/logoBR.png" alt="logo GRV">
+            <nav aria-label="primária">
+                <ul class="header-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#quemsomos">Nossa História</a></li>
+                    <li><a href="#nossosservicos">Nossos serviços</a></li>
+                    <li><a href="#historiacafebrasil">História do Café no BR</a></li>
+                    <li><a href="#historiacafees">História do Café no ES</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main class="main">
-        <div>
-            <h1>Nossa experiência é o <br>nosso diferencial. </h1>
-            <p>Liquidez. Compromisso. Confiança.</p>
+    <main class="main-bg">
+        <div class="main-text">
+            <h1>O nosso sucesso é fruto<br> da sua satisfação </h1>
+            <p>O aroma irresistível e o sabor excepcional do nosso café refletem o sucesso da sua satisfação. Nossa marca se orgulha em criar momentos memoráveis em cada xícara, cultivando o êxito através do seu contentamento</p>
+
+            <a class="button" href="#contato">Entre em contato<img src="./img/icons/telephone-1-svgrepo-com (1).svg" class="phone-icon"></a>
         </div>
     </main>
 
-    <section class="nossa-historia">
-        <span class="detalhe"></span>
-        <img class="img-section-01" src="./img/img11.jpg" src="sacas de café e balança">
-        <div class="container-quem-somos">
-            <h2 id="quemsomos">Nossa História</h2><br>
-            <p>Em 2003, o CEO da GRV Corretora de Café, que na época já atuava no mercado de café há 21 anos, decidiu fundar a empresa com o intuito de fornecer aos exportadores, comerciantes, produtores e importadores informações precisas e atualizadas sobre o mercado do café, além de previsões das safras, preços do cafés e todas as informações importantes necessárias para desenvolver negócios no mercado, visando colocar seus à frente de seus concorrentes. Atualmente a empresa ocupa posição de destaque entre as empresas líderes na intermediação de café nos mercados nacional e internacional...</p>
-            <a class="ver-mais" href="/">Ver Mais</a>
+
+    <article class="nossa-historia-bg">
+        <div class="nossa-historia container">
+            <div class="nossa-historia-conteudo">
+                <span class="detalhe"></span>
+                <h2 class="nossa-historia-titulo">Nossa história</h2>
+                <p class="nossa-historia-descricao">Em 2003, com 21 anos de experiência no mercado de café, o CEO da GRV Corretora de Café fundou a empresa para fornecer informações precisas sobre o mercado, previsões de safra e preços. Hoje, a empresa é uma líder reconhecida na intermediação de café, tanto nacional quanto internacionalmente.</p>
+
+
+                <h3 class="areas-atuaca-titulo">Conheça nossas <span>áreas</span> de atuação</h3>
+
+                <div class="areas-atuacao">
+                    <div>
+                        <span class="detalhe-areas-atuacao"></span>
+                        <p>Corretagem</p>
+                    </div>
+                    <div>
+                        <p>Comercialização de cafés finos e especiais</p>
+                    </div>
+                    <div>
+                        <p>Mercados físicos e futuro</p>
+                    </div>
+                    <div>
+                        <p>Cafés verificados, certificados e orgânicos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cafe-imagem">
+                <img src="./img/img11.jpg">
+            </div>
+
+            <div class="cafe-imagem">
+                <img src="./img/img07.jpg">
+            </div>
         </div>
-    </section>
 
-    <section class="nossos-servicos">
-        <div class="container-servicos">
-            <h2 id="nossosservicos">Nossos Servicos</h2><br>
-            <h3 class="numero">01 </h3>
-            <h3>Corretagem e Comercialização</h3>
-            <p>Preparamos tudo o que você precisa para o imposto de renda</p>
+    </article>
 
-            <h3 class="numero">02 </h3>
-            <h3>Mercados físico e futuro</h3>
-            <p>Comercialização de cafés comerciais, finos e especiais, sejam eles naturais, cereja descascado ou lavados.</p>
 
-            <h3 class="numero">03 </h3>
-            <h3>Qualidades</h3>
-            <p class="ultima-descricao">Cafés verificados, certificados e orgânicos.</p>
-            <ul>
-                <li>
-                    - Fine Cup 17/18 and 15/16
-                </li>
-                <li>
-                    - Good Cup 17/18 and 14/16
-                </li>
-                <li>
-                    - Rio minas 17/18 and 15/16
-                </li>
-                <li>
-                    - Conilon 13up, 14up, 16up, 17/18up.
-                </li>
-                <li>
-                    - Organic Fine Cup
-                </li>
-                <li>
-                    - RFA, 4C, Glypho Free
-                </li>
-            </ul>
+    <article class="nossas-qualidades-bg">
+        <div class="nossas-qualidades container">
+            <div class="cafe-imagem">
+                <img src="./img/img09.jpg">
+            </div>
+
+            <div class="cafe-imagem">
+                <img src="./img/img15.jpg">
+            </div>
+
+            <div class="nossas-qualidades-conteudo">
+                <span class="detalhe"></span>
+                <h2 class="nossas-qualidades-titulo">Nossas Qualidades</h2>
+                <p class="font-2-l cor-5">O café tem uma grande variedade de tipos e sabores. O gosto é pessoal e difícil de capturar em palavras e descrições. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha.</p>
+
+                <div class="qualidades">
+                    <div>
+                        <span class="detalhe-qualidades"></span>
+                        <p class="qualidade-cafe">Fine Cup 17/18 and 15/16</p>
+                    </div>
+                    <div>
+                        <p class="qualidade-cafe">Good Cup 17/18 and 14/16</p>
+                    </div>
+                    <div>
+                        <p class="qualidade-cafe">Rio minas 17/18 and 15/16</p>
+                    </div>
+                    <div>
+                        <p class="qualidade-cafe">Conilon 13up, 14up, 16up, 17/18up</p>
+                    </div>
+                    <div>
+                        <p class="qualidade-cafe">Organic Fine Cup</p>
+                    </div>
+                    <div>
+                        <p class="qualidade-cafe">RFA, 4C, Glypho Free</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img class="img-section-02" src="./img/img15.jpg" src="sacas de café e balança">
 
-    </section>
+    </article>
+
 
     <section class="cafe-no-brasil">
         <div class="container-cafenobrasil">
@@ -109,7 +150,7 @@
 
     <section class="logo-final">
         <img class="mapa-mundi" src="./img/vecteezy_world-map_1198040.png" alt="mapa-mundi">
-        <img class="logo" src="./img/logoBR.png" alt="logo-final">
+        <img class="logo-final" src="./img/logoBR.png" alt="logo-final">
 
     </section>
 

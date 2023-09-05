@@ -11,8 +11,7 @@
   place-items: center;
 }
 
-.logo {
-  position: absolute;
+.logo-final {
   height: 700px;
   width: auto;
   margin-top: 20px;

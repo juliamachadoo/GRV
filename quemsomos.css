@@ -1,52 +1,130 @@
+.nossa-historia-bg {
+  background-color: var(--cor-12);
+  box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
+}
+
 .nossa-historia {
-  display: flex;
-  grid-template-columns: 1fr 1fr;
-  padding:40px;
-  background-color: white;
-  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
 }
 
-.img-section-01 {
+.nossa-historia-titulo{
+  font-size: 3rem;
+  padding-left: 40px;
+  /* padding-bottom: 10px; */
+}
+
+.nossa-historia-conteudo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cafe-imagem img {
+  padding-top: 60px;
+  width: max-width;
   height: 400px;
-  margin: 40px 20px 40px 0px;
-  border-radius: 4px;
+  object-fit: cover;
+  border-radius: 6px;
+  object-position: left;
+  margin: 0px;
+  border: 0px
+
 }
 
-.container-quem-somos {
-  margin: 20px;
-  padding: 10px;
+.nossa-historia h2 {
+  margin-bottom: 16px;
 }
 
-.container-quem-somos h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #1356A3;
-  text-align: right;
+.nossa-historia-conteudo > p {
+    padding-left: 40px;
 }
 
-.container-quem-somos p {
-  font-size: 20px;
-  color: white;
-  margin-bottom: 60px;
-  color: #1356A3;
+.areas-atuaca-titulo{
+  padding-left:40px;
+  padding-top:40px;
+  padding-bottom:20px;
+  font-size: 1.5rem;
+  align-items: start;
+  justify-content: start;
 }
 
-.ver-mais {
-  padding: 15px 30px;
-  font-size: 20px;
-  color: #0d0d3e;
-  text-decoration: none;
-  background-color: grey;
-  border-radius: 4px;
+.areas-atuaca-titulo span{
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to bottom, rgb(51, 92, 153), steelblue, turquoise);
+  
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+  
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+    
+}
+
+.areas-atuacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding-left:40px;
+}
+
+.areas-atuacao h3{
+    margin-bottom: 8px;
+    width: max-content;
 }
 
 .detalhe{
-  width: 60px;
-  height: 400px;
-  background-color: white;
-  display: inline-block;
-  position:absolute;
-  top: 80px;
-  left: 350px;
+  content: "";
+  width: 20px;
+  height: 4px;
+  color:aqua;
+  position: relative;
 
 }
+
+.detalhe-areas-atuacao{
+  content: "";
+  width: 20px;
+  height: 4px;
+  color:aqua;
+  position: relative;
+  margin-left: 40px;
+}
+
+
+@media (max-width: 800px){
+    .tecnologia{
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia-conteudo{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tecnologia-bg {
+        background-color: var(--cor-12);
+        box-shadow: initial
+      }
+
+    .tecnologia-imagem{
+        display:none;
+    }
+    
+        
+    .tecnologia a {
+        margin-bottom: 60px;
+    }
+  
+}
+
+@media (max-width: 600px){
+    .tecnologia-vantagens{
+        flex-direction: column;
+    }
+}
+
